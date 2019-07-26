@@ -19,7 +19,7 @@ public interface JsonPlaceHolderApi {
     @GET("")
     Call<List<Tinh>> getPosts();
 
-    @GET("/tinh")
+    @GET("/tinh ")
     Call<Integer> tinhPost(
             @Query("soa") int soa,
             @Query("sob") int sob
